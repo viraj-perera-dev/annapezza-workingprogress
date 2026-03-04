@@ -4,7 +4,7 @@ import { motion } from 'motion/react'
 
 // Replace with the actual contact phone number
 const PHONE_DISPLAY = '+39 389 1659031'
-const PHONE_HREF = 'tel:+3891659031'
+const PHONE_HREF = 'https://wa.me/393891659031'
 
 interface ContactInfoProps {
   isVisible: boolean
@@ -28,6 +28,8 @@ export default function ContactInfo({ isVisible }: ContactInfoProps) {
 
       <a
         href={PHONE_HREF}
+        target="_blank"
+        rel="noopener noreferrer"
         className="text-sm tracking-[0.25em] text-[#9a9490] transition-colors duration-300 hover:text-[#c9a96e]"
       >
         {PHONE_DISPLAY}
