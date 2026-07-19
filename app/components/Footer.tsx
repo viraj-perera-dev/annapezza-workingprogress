@@ -15,7 +15,7 @@ export default function Footer({ isVisible }: FooterProps) {
       className="fixed bottom-8 left-0 right-0 text-center"
     >
       <p className="text-[10px] tracking-[0.3em] text-[#4a4745] uppercase">
-        Questo sito è stato realizzato da&nbsp;
+        Questo sito verrà realizzato da&nbsp;
         <a
           href="https://vdesign.website"
           target="_blank"

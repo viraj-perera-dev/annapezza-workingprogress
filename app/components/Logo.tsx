@@ -71,7 +71,7 @@ export default function Logo({ onComplete }: LogoProps) {
         style={{ willChange: 'transform, opacity' }}
         className=""
       >
-        <Image src="/logo.svg" alt="Logo" width={500} height={500} className="w-56 h-56 object-contain" priority />
+        <Image src="/logo.png" alt="Logo" width={500} height={500} className="md:w-[40vw]  w-[60vw] mx-auto h-auto object-contain" priority />
       </motion.div>
     </div>
   )

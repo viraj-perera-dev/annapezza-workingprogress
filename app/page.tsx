@@ -36,14 +36,11 @@ export default function Home() {
         }}
       />
 
-      {/* Logo — absolute top center */}
-      <div className="absolute inset-x-0 top-8 flex justify-center">
-        <Logo onComplete={handleLogoComplete} />
-      </div>
-
       {/* Text + contact — vertically centered in the viewport */}
       <div className="flex h-full flex-col items-center justify-center px-8 text-center">
-        <div className="flex flex-col items-center gap-5 w-full md:w-2/3">
+        <Logo onComplete={handleLogoComplete} />
+
+        <div className="flex flex-col items-center gap-5 w-full md:w-2/3 mt-10">
 
           <motion.p
             initial={{ opacity: 0, y: 22, filter: 'blur(10px)' }}
